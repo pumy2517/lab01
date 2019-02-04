@@ -56,7 +56,7 @@ class MyHomePageState extends State<MyHomePage> {
               setState(() {
                 counter++;
               });
-              print("Counter : ${counter}");
+              print("Counter : ${counter+1}");
             },
           ),
         ));
